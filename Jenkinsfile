@@ -20,7 +20,9 @@ pipeline {
                 // Example build step (you can replace it with your actual build command)
                 echo 'Building project...'
                 // You can also run Maven, Gradle, npm, etc.
-                sh 'mvn clean install'  // Example command for Maven
+               // sh 'mvn clean install'  // Example command for Maven
+                sh './mvnw clean install'
+
             }
         }
 
