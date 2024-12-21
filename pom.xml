@@ -4,11 +4,8 @@
   <artifactId>MavenGitHubJenkinsIntegrationCICD</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   
-  
-  
   <build>
     <plugins>
-        <!-- Build Management -->
         <plugin>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-compiler-plugin</artifactId>
@@ -18,14 +15,9 @@
                 <target>11</target>
             </configuration>
         </plugin>
-
-<<<<<<< HEAD
-
         <!-- Testing -->
         <plugin>
-=======
          <plugin>
->>>>>>> f590a03 (new changes in pox file and testng file)
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-surefire-plugin</artifactId>
             <version>3.1.2</version>
@@ -35,8 +27,6 @@
                 </suiteXmlFiles>
             </configuration>
         </plugin>
-
-        <!-- Reporting -->
         <plugin>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-surefire-report-plugin</artifactId>
@@ -55,17 +45,9 @@
             <version>0.8.10</version>
         </plugin>
 
-        <!-- Code Quality -->
-        <plugin>
-            <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-checkstyle-plugin</artifactId>
-            <version>3.2.0</version>
-        </plugin>
-    </plugins>
-</build>
 
-
-  
+              <plugins>
+              </build>
   <dependencies>
         <!-- Selenium Java -->
         <dependency>
@@ -102,10 +84,5 @@
             <artifactId>slf4j-simple</artifactId>
             <version>1.7.30</version>
         </dependency>
-    </dependencies>
-  
-  
-  
-  
-  
+    </dependencies> 
 </project>
