@@ -23,7 +23,7 @@
             <version>3.1.2</version>
             <configuration>
                 <suiteXmlFiles>
-                    <suiteXmlFile>${basedir}/src/test/resources/testng.xml</suiteXmlFile>
+                    <suiteXmlFile>/Users/vipinyadav/eclipse-workspace/MavenGitHubJenkinsIntegrationCICD/testng.xml</suiteXmlFile>
                 </suiteXmlFiles>
             </configuration>
         </plugin>
