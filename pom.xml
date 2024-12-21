@@ -4,11 +4,9 @@
   <artifactId>MavenGitHubJenkinsIntegrationCICD</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   
-  
-  
   <build>
     <plugins>
-        <!-- Build Management -->
+  
         <plugin>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-compiler-plugin</artifactId>
@@ -19,13 +17,7 @@
             </configuration>
         </plugin>
 
-<<<<<<< HEAD
-
-        <!-- Testing -->
         <plugin>
-=======
-         <plugin>
->>>>>>> f590a03 (new changes in pox file and testng file)
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-surefire-plugin</artifactId>
             <version>3.1.2</version>
@@ -35,31 +27,10 @@
                 </suiteXmlFiles>
             </configuration>
         </plugin>
-
-        <!-- Reporting -->
-        <plugin>
-            <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-surefire-report-plugin</artifactId>
-            <version>3.1.2</version>
-        </plugin>
-
         <plugin>
             <groupId>net.masterthought</groupId>
             <artifactId>cucumber-reporting</artifactId>
             <version>5.7.0</version>
-        </plugin>
-
-        <plugin>
-            <groupId>org.jacoco</groupId>
-            <artifactId>jacoco-maven-plugin</artifactId>
-            <version>0.8.10</version>
-        </plugin>
-
-        <!-- Code Quality -->
-        <plugin>
-            <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-checkstyle-plugin</artifactId>
-            <version>3.2.0</version>
         </plugin>
     </plugins>
 </build>
@@ -103,9 +74,4 @@
             <version>1.7.30</version>
         </dependency>
     </dependencies>
-  
-  
-  
-  
-  
 </project>
