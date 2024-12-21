@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-12-21T17:45:09 IST" name="Suite" finished-at="2024-12-21T17:46:37 IST" duration-ms="88399">
+    <groups>
+    </groups>
+    <test started-at="2024-12-21T17:45:09 IST" name="Test" finished-at="2024-12-21T17:46:37 IST" duration-ms="88399">
+      <class name="browserOpenSetup.ChromeSetUp">
+        <test-method signature="framehandle()[pri:1, instance:browserOpenSetup.ChromeSetUp@13c9d689]" started-at="2024-12-21T17:45:09 IST" name="framehandle" finished-at="2024-12-21T17:46:37 IST" duration-ms="88249" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- framehandle -->
+        <test-method signature="teardown()[pri:2, instance:browserOpenSetup.ChromeSetUp@13c9d689]" started-at="2024-12-21T17:46:37 IST" name="teardown" finished-at="2024-12-21T17:46:37 IST" duration-ms="122" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- browserOpenSetup.ChromeSetUp -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

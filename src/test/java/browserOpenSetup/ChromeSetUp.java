@@ -1,5 +1,6 @@
 package browserOpenSetup;
 
+import org.testng.annotations.Test;
 import java.time.Duration;
 
 import org.openqa.selenium.WebDriver;
@@ -28,6 +29,10 @@ public class ChromeSetUp {
 			driver.manage().window().maximize();
 			
 			driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+			
+			System.out.println("Testing CI/CD For MavenGitHubJenkinsIntegrationCICD project");
+			System.out.println("this could be done");
+
 			
 
 	}
