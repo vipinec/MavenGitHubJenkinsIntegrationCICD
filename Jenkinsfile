@@ -4,7 +4,7 @@ pipeline {
     environment {
         // You can define global environment variables here
         REPO_URL = 'https://github.com/vipinec/MavenGitHubJenkinsIntegrationCICD.git'
-        BRANCH_NAME = 'main'  // Specify the branch you want to build
+        BRANCH_NAME = 'stage1'  // Specify the branch you want to build
     }
 
     stages {
