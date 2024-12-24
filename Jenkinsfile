@@ -4,7 +4,7 @@ pipeline {
 
     environment {
         REPO_URL = 'https://github.com/vipinec/MavenGitHubJenkinsIntegrationCICD.git' // Replace with your GitHub repo URL
-        BRANCH = 'main' // Branch to be cloned
+        BRANCH = 'stage1' // Branch to be cloned
     }
 
     stages {
