@@ -18,7 +18,7 @@ pipeline {
         stage('Build') {
             steps {
                 // Example build step (you can replace it with your actual build command)
-                echo 'Building project...'
+                sh 'mvn clean install'
                 // You can also run Maven, Gradle, npm, etc.
                // sh 'mvn clean install'  // Example command for Maven
                // sh './mvnw clean install'
@@ -29,7 +29,7 @@ pipeline {
         stage('Test') {
             steps {
                 // Run tests (replace with your actual testing commands)
-                echo 'Running tests...'
+               sh 'mvn test'
                // sh 'mvn test'  // Example command for Maven tests
             }
         }
@@ -37,7 +37,7 @@ pipeline {
         stage('Deploy') {
             steps {
                 // Deploy the application (e.g., to an AWS server or internal environment)
-                echo 'Deploying project...'
+                sh 'Deploying project...'
                 // Replace with your deployment script/command
             }
         }
