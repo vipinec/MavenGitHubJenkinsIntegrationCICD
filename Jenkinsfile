@@ -1,6 +1,8 @@
 pipeline {
     agent any
-
+     tools {
+        maven 'mvnhome' // The Maven version configured in Jenkins
+    }
 
     environment {
         REPO_URL = 'https://github.com/vipinec/MavenGitHubJenkinsIntegrationCICD.git' // Replace with your GitHub repo URL
